@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color:rgb(197, 219, 226);
+    overflow-x: hidden;
+  }
+  nav ul li a{
+    width: 140px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    margin: 0 10px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 15px;
+    position: relative;
+    
+  }
+  nav ul li a:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+  }
+  nav ul li a:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+  }
+  nav ul li a:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  nav ul li a:hover:before {
+    border-color: #262626;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+  }
+  
+  nav ul li a:hover:after {
+    border-color: #262626;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+  }
+  nav {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: rgb(252, 222, 193);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 18px 14px;
+    text-decoration: none;
+  }
+  .todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img{
+    border-radius: 15px;
+  }
+  .cardio {
+    box-sizing: border-box;
+    width: 190px;
+    height: 254px;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    margin: 10px;
+  }
+  
+  .cardio:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .cardio:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+  .name{
+    padding: 50px;
+    color: rgb(248, 167, 167);
+  }
+  #lado{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+  #lado a{
+    position: absolute;
+    left: -120px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 110px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 0 5px 5px 0;
+}
+a{
+  padding: 60px;
+}
+#p1{
+  top: 10px;
+  background-color: #D8BFAA;
+  color: #7E6653;
+
+}
+#p2{
+  top: 70px;
+  background-color: #D8BFAA;
+  color: #7E6653;
+}
+#p3{
+  top: 130px;
+  background-color: #D8BFAA;
+  color: #7E6653;
+}
+#p4{
+  top: 190px;
+  background-color: #D8BFAA;
+  color: #7E6653;
+}
+#p5{
+top: 250px;
+background-color: #D8BFAA;
+  color: #7E6653;
+}
+#p6{
+top: 310px;
+background-color: #D8BFAA;
+  color: #7E6653;
+}
+#p7{
+top: 395px;
+background-color: #D8BFAA;
+  color: #7E6653;
+}
+#p8{
+top: 480px;
+background-color: #D8BFAA;
+  color: #7E6653;
+}
+#p9{
+top: 540px;
+background-color: #D8BFAA;
+  color: #7E6653;
+}
+#p10{
+top: 600px;
+background-color: #D8BFAA;
+  color: #7E6653;
+}
+#p11{
+top: 660px;
+background-color: #D8BFAA;
+  color: #7E6653;
+}
+#p12{
+top: 720px;
+background-color: #D8BFAA;
+  color: #7E6653;
+
+
+}
+#lado a:hover{
+  left:0;
+  background-color: rgb(255, 255, 255);
+  color: #7E6653;
+  border: 1px solid #7E6653;
+  
+}

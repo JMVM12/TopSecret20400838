@@ -1,0 +1,69 @@
+body{
+    background-image: url(/IMAGENES/Fondo-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Quicksand', sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+a {
+    align-items: center;
+    background-image: linear-gradient(144deg,rgb(255, 204, 153),rgb(204, 255, 204));
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #cbecc2;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 200px;
+    padding: 16px 3px 16px 3px;
+    margin: 20px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all .3s;
+    text-align: center;
+   }  
+a:active,
+a:hover {
+ outline: 0;
+}
+
+a span {
+ background-color: rgb(5, 6, 45);
+ padding: 14px;
+ border-radius: 6px;
+ width: 100%;
+ height: 100%;
+ transition: 300ms;
+}
+
+a:hover span {
+ background: none;
+ color: black;
+}
+
+a:active {
+ transform: scale(0.9);
+}
+.con-vid{
+    padding: 40px;
+}
+.video {
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px 2px #FEDCB7;
+  }
+  

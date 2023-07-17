@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="/CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="con-vid">
+            <center><img class="video" src="/IMAGENES/titulo2.gif" alt="GIF en bucle"></center>
+        </div>
+        <center><a href="/HTML/inicio.html">
+            <i></i>
+            <i></i>
+            <span>Iniciar</span>
+        </a></center>
+    <script>
+        let btn =document.querySelector('a');
+        btn.addEventListener('mousemove',e => {
+            let rect = e.target.getBoundingClientRect();
+            let x = e.clientX * 3 - rect.left;
+            btn.style.setProperty('--x',x + 'deg');
+        });
+    </script>
+</body>
+</html>
